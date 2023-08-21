@@ -1,0 +1,486 @@
+{% extends 'cv/base.html' %} {% block content %}
+
+<div class="container">
+  <div class="CV_title">
+    <p>Curriculum Vitae</p>
+  </div>
+  <section class="cover">
+    <!-- __________________LEFT SIDE_______________________ -->
+
+    <article class="cover__left_side">
+      <div class="cover__image">
+        <img src="../../static/cv/images/images/EUGENE-3.jpg" alt="EUGENE-3" />
+      </div>
+      <div id="myName-smaller">
+        Eugene <br />
+        Gaidyshev
+      </div>
+
+      <div class="cover__subsection">
+        <div class="cover__red-box"></div>
+        <div class="cover__red_heading">General</div>
+      </div>
+      <div class="cover__item-title">Date of Birth:</div>
+      <div class="cover__item-value">the 1 <sup>st</sup> of December, 1970</div>
+      <div class="cover__item-title">Place of Birth:</div>
+      <div class="cover__line_flag">
+        <img
+          src="../../static/cv/images/images/icons8-ссср-48.png"
+          alt="USSR"
+          class="cover__small_flag"
+        />
+        <div class="cover__item-value">Kuibyshev, the USSR</div>
+      </div>
+      <div class="cover__item-title">Nationality(ies) at birth:</div>
+      <div class="cover__line_flag">
+        <img
+          src="../../static/cv/images/images/icons8-ссср-48.png"
+          alt="USSR"
+          class="cover__small_flag"
+        />
+        <div class="cover__item-value">the USSR</div>
+      </div>
+      <div class="cover__item-title">Present nationality(ies):</div>
+      <div class="cover__line_flag">
+        <img
+          src="../../static/cv/images/images/icons8-россия-48.png"
+          alt="Russia"
+          class="cover__small_flag"
+        />
+        <div class="cover__item-value">the Russian Federation</div>
+      </div>
+      <div class="cover__item-title">Sex:</div>
+      <div class="cover__item-value">Male</div>
+      <div class="cover__item-title">Marital status:</div>
+      <div class="cover__item-value">Married</div>
+      <div class="cover__item-title">Permanent address:</div>
+      <div class="cover__item-value">ul. Radischeva 10-27</div>
+      <div class="cover__item-value">Ekaterinburg, 620014</div>
+      <div class="cover__item-value">the Russian Federation</div>
+
+      <div class="cover__subsection">
+        <div class="cover__red-box"></div>
+        <div class="cover__red_heading">Contacts</div>
+      </div>
+      <div class="cover__item-title">Phone:</div>
+      <div class="cover__item-value">+7-912-24-13937</div>
+      <div class="cover__item-title">E-mail:</div>
+      <div class="cover__item-value">gaidysheff@yandex.ru</div>
+
+      <div class="cover__subsection">
+        <div class="cover__red-box"></div>
+        <div class="cover__red_heading">Education</div>
+      </div>
+      <div class="cover__links-education">
+        <a class="cover__education" href="{% url 'university' %}"
+          >Diploma “Suma Cum Laude”, <br />Master of Economy and Management of
+          Enterprises
+        </a>
+        <a class="cover__education" href="{% url 'mba' %}"
+          >Diploma of Master of Business Administration</a
+        >
+        <a class="cover__education" href="{% url 'courses' %}"
+          >Training Cources</a
+        >
+        <a class="cover__education" href="{% url 'it' %}"
+          >Full Stack Web Development Course</a
+        >
+      </div>
+
+      <div class="cover__subsection">
+        <div class="cover__red-box"></div>
+        <div class="cover__red_heading">Languages</div>
+      </div>
+      <div class="cover__languages">
+        <div class="cover__grid-item">READ</div>
+        <div class="cover__grid-item">WRITE</div>
+        <div class="cover__grid-item">SPEAK</div>
+        <div class="cover__grid-item">UNDERSTAND</div>
+        <div class="cover__grid-item">
+          <div class="cover__subtitles">Russian</div>
+          <div class="cover__contain">
+            <div class="cover__skills Russian">native</div>
+          </div>
+          <div class="cover__subtitles">English</div>
+          <div class="cover__contain">
+            <div class="cover__skills English">70%</div>
+          </div>
+          <div class="cover__subtitles">German</div>
+          <div class="cover__contain">
+            <div class="cover__skills German">25%</div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="cover__subtitles">Russian</div>
+          <div class="cover__contain">
+            <div class="cover__skills Russian">native</div>
+          </div>
+          <div class="cover__subtitles">English</div>
+          <div class="cover__contain">
+            <div class="cover__skills English">70%</div>
+          </div>
+          <div class="cover__subtitles">German</div>
+          <div class="cover__contain">
+            <div class="cover__skills German">25%</div>
+          </div>
+        </div>
+        <div class="cover__grid-item">
+          <div class="cover__subtitles">Russian</div>
+          <div class="cover__contain">
+            <div class="cover__skills Russian">native</div>
+          </div>
+          <div class="cover__subtitles">English</div>
+          <div class="cover__contain">
+            <div class="cover__skills English">70%</div>
+          </div>
+          <div class="cover__subtitles">German</div>
+          <div class="cover__contain">
+            <div class="cover__skills German">25%</div>
+          </div>
+        </div>
+        <div class="cover__grid-item">
+          <div class="cover__subtitles">Russian</div>
+          <div class="cover__contain">
+            <div class="cover__skills Russian">native</div>
+          </div>
+          <div class="cover__subtitles">English</div>
+          <div class="cover__contain">
+            <div class="cover__skills English English_understand">90%</div>
+          </div>
+          <div class="cover__subtitles">German</div>
+          <div class="cover__contain">
+            <div class="cover__skills German">25%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cover__subsection">
+        <div class="cover__red-box"></div>
+        <div class="cover__red_heading">Skills in Web Development</div>
+      </div>
+      <div class="cover__skill-logos">
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/python.png"
+            alt="python logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/django.png"
+            alt="django logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img src="../../static/cv/images/logos/react.png" alt="react logo" />
+        </div>
+        <div class="cover__image">
+          <img src="../../static/cv/images/logos/html-w.png" alt="html logo" />
+        </div>
+        <div class="cover__image">
+          <img src="../../static/cv/images/logos/css-w.png" alt="css logo" />
+        </div>
+        <div class="cover__image">
+          <img src="../../static/cv/images/logos/js-w.png" alt="js logo" />
+        </div>
+      </div>
+      <div class="cover__skill-logos-secondary">
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/rest.png"
+            alt="js logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/redux.png"
+            alt="js logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/TypeScript.png"
+            alt="js logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/postgre.png"
+            alt="css logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/sqlite.png"
+            alt="js logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/celery.png"
+            alt="python logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/redis.png"
+            alt="js logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/docker.png"
+            alt="django logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/github.png"
+            alt="react logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/sass.png"
+            alt="sass logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/nodeJS.png"
+            alt="nodeJS logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/webpack.png"
+            alt="js logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/vite-js-256-logo.png"
+            alt="js logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/bootstrap.png"
+            alt="bootstrap logo"
+          />
+        </div>
+        <div class="cover__image">
+          <img
+            src="../../static/cv/images/logos/secondary/mui.png"
+            alt="html logo"
+          />
+        </div>
+      </div>
+    </article>
+
+    <!-- __________________MAIN PART_______________________ -->
+
+    <article class="cover__right_side">
+      <div id="myName">
+        Eugene <br />
+        Gaidyshev
+      </div>
+      <div class="cover__subsection">
+        <div class="cover__red-box"></div>
+        <div class="cover__red_heading">Profile</div>
+      </div>
+      <div>
+        <div class="cover__profile red_start">
+          Direct experience in Project Cycle Management, Project Proposal
+          Assessment, Project Monitoring and Evaluation.
+        </div>
+        <div class="cover__profile red_start">
+          Institutional capacity building of Local Governments in the field of
+          project identification, formulation and implementation.
+        </div>
+        <div class="cover__profile red_start">
+          Experience in Business Support and Market Scanning for foreign
+          companies willing to enter the emergency market.
+        </div>
+        <div class="cover__profile">
+          29 years experience as an Expert/Consultant/Manager in various
+          international projects, and commercial enterprises.
+        </div>
+        <div class="cover__profile red_start">
+          Human resource development of local beneficiaries of the EU funded
+          projects for ensuring sustainability and continuation of after-project
+          activities.
+        </div>
+        <div class="cover__profile red_start">
+          Advanced development of training manuals and execution of training
+          seminars and workshops.
+        </div>
+        <div class="cover__profile red_start">
+          Relevant experience in various Management fields: Development
+          Strategies; Budgeting; Team building; Action Plans; Planning and
+          Monitoring.
+        </div>
+        <div class="cover__profile red_start">
+          Distant learning and obtaining a new profession and knowledge as
+          Fullstack Developer based on Phyton.
+        </div>
+      </div>
+      <div class="cover__subsection">
+        <div class="cover__red-box"></div>
+        <div class="cover__red_heading">Experience</div>
+      </div>
+
+      <!-- __________________EXPERIENCE_______________________ -->
+
+      <div class="cover__timeline">
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>2018 - ...</div>
+            <a class="cover__position" href="{% url 'assignments' %}">
+              <span>Freelancer</span>
+              <br /><br />
+              (click for more information about Positions and Duties)
+            </a>
+          </div>
+        </div>
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>2014 - ...</div>
+            <a class="cover__position" href="{% url 'assignments' %}">
+              <span>Manager</span>
+              <br /><br />
+              Optima Group (Ekaterinburg, Russia)
+            </a>
+          </div>
+        </div>
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>2012 - 2022</div>
+            <a class="cover__position" href="{% url 'assignments' %}">
+              <span>Rater</span>
+              <br /><br />
+              Lionbridge Global Sourcing Solutions, Inc. (the USA)
+            </a>
+          </div>
+        </div>
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>2011 - 2013</div>
+            <a class="cover__position" href="{% url 'assignments' %}">
+              <span>Regional Business Development Director</span>
+              <br /><br />
+              Clear Light UN Limited (Hong Kong) in Ekaterinburg, Russia
+            </a>
+          </div>
+        </div>
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>2010 - 2011</div>
+            <a class="cover__position" href="{% url 'assignments' %}">
+              <span>Deputy Representative</span>
+              <br /><br />
+              Netherlands Business Support Office (NBSO finded by the Government
+              of the Netherlands) in Ekaterinburg, Russia
+            </a>
+          </div>
+        </div>
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>2009 - 2010</div>
+            <a class="cover__position" href="{% url 'assignments' %}">
+              <span>Director of Fundraising Department</span>
+              <br /><br />
+              Non-commercial organisation “International Foundation – Legacy” in
+              Ekaterinburg, Russia
+            </a>
+          </div>
+        </div>
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>2003 - 2005</div>
+            <a class="cover__position" href="{% url 'assignments' %}">
+              <span>General Director</span>
+              <br /><br />
+              JSC “SAMIX Ekaterinburg”, Russia
+            </a>
+          </div>
+        </div>
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>2000 - 2008</div>
+            <a class="cover__position" href="{% url 'assignments' %}">
+              <span>Regional Director</span>
+              <br /><br />
+              The Tacis Local Support Office (LSO finded by the EU) in
+              Ekaterinburg, Russia
+            </a>
+          </div>
+        </div>
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>1997 - 2000</div>
+            <a class="cover__position" href="{% url 'assignments' %}">
+              <span
+                >Project Cycle Management Expert / Team Leader’s
+                Counterpartner</span
+              >
+              <br /><br />
+              The Urals Tacis Technical Office, (Tacis TO finded by the EU) in
+              Ekaterinburg, Russia
+            </a>
+          </div>
+        </div>
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>1994 - 1997</div>
+            <a class="cover__position" href="{% url 'assignments' %}">
+              <span>
+                Director of MPS Consulting and Investment Project Preparation
+                Department</span
+              >
+              <br /><br />
+              Management and Production Systems MPS Ltd. in Samara, Russia
+            </a>
+          </div>
+        </div>
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>1995 - 2011 (... meanwhile in between ...)</div>
+            <a class="cover__position" href="{% url 'assignments_st' %}">
+              <span>Various international short-term assignments</span>
+            </a>
+          </div>
+        </div>
+        <div class="cover__box right">
+          <div class="cover__content">
+            <div>1993 - 1994</div>
+            <a class="cover__position" href="{% url 'assignments' %}">
+              <span>Counterpart to the EU Management Training Expert</span>
+              <br /><br />
+              Tacis “EC Food Distribution Study” project in Samara, Russia
+            </a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+</div>
+
+<footer>
+  <div class="front_footer">
+    <p class="slogan">
+      Have you found my
+      <span class="tooltip-bottom"
+        >Slogan
+        <span class="tooltiptext-bottom">Spoiler: DIE HARD</span>
+      </span>
+      being encrypted right here, on the Front page ???
+    </p>
+  </div>
+</footer>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+  Return to the Top
+</button>
+
+{% endblock content %}
