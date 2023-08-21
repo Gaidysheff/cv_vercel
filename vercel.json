@@ -1,5 +1,5 @@
 {
-  "build": [
+  "next build": [
     {
       "src": "Resume/wsgi.py",
       "use": "@vercel/python",
